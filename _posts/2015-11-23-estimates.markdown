@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Estimates"
+date:   2015-11-23 08:23:51
+categories: agile estimates
+---
+
+Estimates are weird, they make me feel uncomfortable whether I give them or not, wehether I ask for them or not. Obviously they're important sometimes - if the world is going to end tomorrow and you think you need 6 months to build the world saving machine, your time is probably better spent coming up with a plan that takes less than 24 hours. However, in most situations, the stuff that needs to get done first is the stuff that needs to get done first whether it takes 3 hours or 3 weeks. We're rarely getting value from these estimates.
+
+One possible reason for this uncomfortable feeling is that estimates only make sense with confidence intervals attached, but we never make that explicit. Engineer says "It'll be ready in a week" with an implicit 75% confidence, Boss hears "It'll be ready in a week" and attaches a 95% confidence interval. Now every item that falls into that 20% hole does damage to that relationship. Unfortunately, this is really hard in reality. People have terrible probabilistic intuition and consistently drastically underestimate the tail. When I've had to ask for estimates for a deadline before, I've tried to ask questions of the form "What's the chance that the feature will be done by *important deadline*?". It forces people into probabilistic mode, and normally answers your actual question better, but the estimates still suck.
+
+Sometimes the diff in confidence intervals can happen between an Engineer's mouth and brain. Mouth says "It'll be ready in a week" with an implicit 50% confidence (because the mouth is full of ego), brain hears "It'll be ready in a week" and attaches a 95% confidence interval. Now when that doesn't appear in a week 45% of the time (because computers are hard) Engineer feels bad. Unfortunately, this almost always happens. People give a small estimate that *could possibly* be right and then put the expectation on themselves to make it happen within the estimated timeframe. This is then compounded when managers do the same conversion of estimates to expectations and frown (or worse) when it overruns.
+
+Scrambling to meet expectations is going to lead to people cutting corners inapprorpiately, working at higher than a sustainable pace and generally doing things that are unhealthy for the project or product. This is obviously a state we want to avoid, but is a state that's made much worse by asking for estimates. I now try and avoid asking for, or giving estimates to avoid this pain, unles there is a good deadline based reason. Even then, "What's the chance that the feature will be done by *important deadline*?" seems a much better phrasing in every case I've come across.
